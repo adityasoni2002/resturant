@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>ATMOSPHERIA/HOME</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="../assets/img/icon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+            <i class="bi bi-phone d-flex align-items-center"><span>+91 62644 39300</span></i>
+            <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Fri: 10AM - 10PM</span></i>
+            <i class="bi bi-clock d-flex align-items-center ms-4"><span> Sat-Sun: 12PM - 12AM</span></i>
+        </div>
+    </div>
+</div>
+<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+        <h1 class="logo me-auto me-lg-0"><a href="Main.php">ATMOSPHERIA</a></h1>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <li><a class="nav-link scrollto active" href="Main.php">Home</a></li>
+                <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+                <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+                <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+                <li><a class="nav-link scrollto" href="Events.php">Events</a></li>
+                <li><a class="nav-link scrollto" href="About.php">About</a></li>
+                <li><a class="nav-link scrollto" href="Contact.php">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <a href="BookTable.php" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+    </div>
+</header>
+<section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>Welcome to <span>ATMOSPHERIA</span></h1>
+                <h2>We Serve You What You Want!</h2>
+                <div class="btns">
+                    <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+                    <a href="BookTable.php" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+                <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<main id="main">
+    <section id="menu" class="menu section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Menu</h2>
+                <p>Check Our Tasty Menu</p>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="menu-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-starters">Starters</li>
+                        <li data-filter=".filter-salads">Salads</li>
+                        <li data-filter=".filter-specialty">Specialty</li>
+                        <a href="../assets/img/menu/menu.pdf" > Menu</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 menu-item filter-starters">
+                    <img src="../assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Manchurian</a><span>₹285</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        A dry preparation of vegetable dumpling tossed in soy and garlic sauce
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <img src="../assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Atomospheria pizza</a><span>₹525</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Paprika chicken,mushrooms,jalapeno,corn
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-starters">
+                    <img src="../assets/img/menu/cake.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Obsessive Nachos</a><span>₹265</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Served with garlic sour and cream and tomato salad
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-salads">
+                    <img src="../assets/img/menu/caesar.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Caesar Selections</a><span>₹245</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        creamy capers and parmesan dressing combined with exotic vegetables,black olives and served with garlic bread
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <img src="../assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Murgh Awadhi Biryani</a><span>₹395</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Served with special raita and nutty salan
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-starters">
+                    <img src="../assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Palak Patta Chat</a><span>₹245</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        New favorite chaat of people,spinach pakoda with yogurt mousse,chaat dressings and bhujia
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-salads">
+                    <img src="../assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Greek Salad</a><span>₹235</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Fresh spinach, crisp romaine, tomatoes, and Greek olives
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-salads">
+                    <img src="../assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Spinach Salad</a><span>₹255</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <img src="../assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                        <a href="#">Baked Tater Tots</a><span>₹325</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        An american street food,potato cheese shots topped with refired beans,corn salsa,
+                        pico de galio and baked with fresh mozzarella cheese
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="specials" class="specials">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Specials</h2>
+                <p>Check Our Specials</p>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Italian Fish</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Mousse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Dumplings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Chicken</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Cake</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="tab-1">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Grilled Dorade, Vernick Fish</h3>
+                                    <p class="fst-italic">While Jean-Georges Vongerichten took the penthouse at the new Four Seasons in Philadelphia,
+                                        his protégé Greg Vernick holds it down on the first floor with his ode to the oyster bar, Vernick Fish.
+                                        Arriving in late summer 2019, it was one of the best new seafood restaurants to open across the country. <br> <br>
+                                        This butterflied and grilled dorade is served with a pumpkin seed and arbol chile salsa macha.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="../assets/img/specials-1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-2">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Apple, Le Bernardin</h3>
+                                    <p class="fst-italic">When Le Bernardin reopens fully, the lifehack I’ll offer to you is going to the lounge for a night cap and ordering all of Thomas Raquel’s desserts, </p>
+                                    <p>including his famed “Apple,” which is brown butter mousse, apple confit and Armagnac sabayon.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="../assets/img/specials-2.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-3">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Manti Dumplings, Albi</h3>
+                                    <p class="fst-italic">The more traditional version of manti dumplings isn’t one of chef Michael Rafidi’s favorite dishes, so he tweaked the format to make it more his own.</p>
+                                    <p>He’s turned a yogurt-and-dumpling stew into lamb-and-eggplant-stuffed dumplings that are served with a dollop of yogurt and a Chinese-influenced Urfa chili crisp.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="../assets/img/specials-3.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-4">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Grilled Chicken, Laser Wolf</h3>
+                                    <p class="fst-italic">About two weeks before the world ground to a halt, I had dinner at Mike Solomonov and Steven Cook’s newest restaurant Laser Wolf. Chef Andrew Henshaw runs an ode to an Israeli shipudiya, or skewer house. Ordering is simple: Just choose your meat, and along with it comes a sprawling selection of dips, pickles, vegetables and salads called salatim that have roots across
+                                        the Middle East—perfect for dragging your fresh pita through or slathering on lamb merguez. </p>
+                                    <p>The chicken grilled over the coals was a perfect vehicle for all the salatim and expertly executed by Henshaw and team.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="../assets/img/specials-4.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-5">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Gluten Free Chocolate Cake, Jinju Patisserie</h3>
+                                    <p class="fst-italic">The unofficial mayor of Portland, Gary the Foodie, took me to this quaint pastry shop in town that was started by the duo of chocolatier Jin Caldwell and pastry chef Kyurim Lee.</p>
+                                    <p>Along with partaking in fruit-infused chocolates, we feasted on these layers of gluten-free sponge interspersed with equal amounts of decadent chocolate mousse.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="../assets/img/specials-5.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+                <p>What they're saying about us</p>
+            </div>
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                It’s a great experience. The ambiance is very welcoming and charming. Amazing food and service. Staff are extremely knowledgeable and make great recommendations
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="../assets/img/testimonials/testimonials-11.jpg" class="testimonial-img" alt="">
+                            <h3>Aditya</h3>
+                            <h4>Ceo &amp; Founder</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                This restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide food list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="../assets/img/testimonials/testimonials-22.jpg" class="testimonial-img" alt="">
+                            <h3>Shreya</h3>
+                            <h4>Designer</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                The absolute best red sauce. Weather on Pizza or Pasta, it’s honestly delicious. Portions are huge and the staff is extremely friendly and courteous.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="../assets/img/testimonials/testimonials-33.jpg" class="testimonial-img" alt="">
+                            <h3>Prasiddhi</h3>
+                            <h4>Store Owner</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Excellent food. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="../assets/img/testimonials/testimonials-44.jpg" class="testimonial-img" alt="">
+                            <h3>Rahul</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                We are so fortunate to have this place just a few minutes drive away from home. Food is stunning, both the tapas and downstairs restaurant. Love this place and will continue to visit.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="../assets/img/testimonials/testimonials-55.jpg" class="testimonial-img" alt="">
+                            <h3>Shreyansh</h3>
+                            <h4>Entrepreneur</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Gallery</h2>
+                <p>Some photos from Our Restaurant</p>
+            </div>
+        </div>
+        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/galleryy-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/galleryy-3.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/galleryy-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/galleryy-6.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/galleryy-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/galleryy-7.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="../assets/img/gallery/galleryy-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="../assets/img/gallery/galleryy-8.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="chefs" class="chefs">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Chefs</h2>
+                <p>Our Proffesional Chefs</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="../assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Aditya Soni</h4>
+                                <span>Master Chef</span>
+                            </div>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="../assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Prasiddhi Dixena</h4>
+                                <span>Owner</span>
+                            </div>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="../assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Shreyansh Mahadeokar</h4>
+                                <span>Chef</span>
+                            </div>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-info">
+                        <h3>ATMOSPHERIA</h3>
+                        <p>
+                            VIP Rd, Vishal Nagar<br>
+                            Raipur, Chhattisgarh <br><br>
+                            <strong>Phone:</strong> +91 62644 39300<br>
+                            <strong>Email:</strong> atmospheria@gmail.com<br>
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="Main.php">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="About.php">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="TOS.php">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="PP.php">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="Events.php">Parties</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="BookTable.php">Booking <Table></Table></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>ATMOSPHERIA</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed by <a href="#">TheGoldenTrio</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<script src="../assets/vendor/aos/aos.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/vendor/php-email-form/validate.js"></script>
+<script src="../assets/js/main.js"></script>
